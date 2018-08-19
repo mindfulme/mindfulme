@@ -349,7 +349,7 @@
                 $.ajax({
 
                     type: "POST",
-                    url: "https://resume-back-end.herokuapp.com//index.php",
+                    url: "https://resume-back-end.herokuapp.com/index.php",
                     data: $(form).serialize(),
                     beforeSend: function () {
 
