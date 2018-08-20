@@ -333,7 +333,6 @@
 
     };
 
-
     /* Contact Form
      * ------------------------------------------------------ */
     var ssContactForm = function () {
@@ -345,43 +344,19 @@
             submitHandler: function (form) {
 
                 var sLoader = $('.submit-loader');
+                var message = 'Personal Portfolio Website Message'
 
-                $.ajax({
-
-                    type: "POST",
-                    url: "https://resume-back-end.herokuapp.com/index.php",
-                    data: $(form).serialize(),
-                    beforeSend: function () {
-
-                        sLoader.slideDown("slow");
-
-                    },
-                    success: function (msg) {
-
-                        // Message was sent
-                        if (msg == 'OK') {
-                            sLoader.slideUp("slow");
-                            $('.message-warning').fadeOut();
-                            $('#contactForm').fadeOut();
-                            $('.message-success').fadeIn();
-                        }
-                        // There was an error
-                        else {
-                            sLoader.slideUp("slow");
-                            $('.message-warning').html(msg);
-                            $('.message-warning').slideDown("slow");
-                        }
-
-                    },
-                    error: function () {
-
-                        sLoader.slideUp("slow");
-                        $('.message-warning').html("Something went wrong. Not supported yet! Check it out tomorrow.");
-                        $('.message-warning').slideDown("slow");
-
-                    }
-
-                });
+                var body = $(form).serialize();
+                var regex = /[?&]([^=#]+)=([^&#]*)/g,
+                    url = body,
+                    params = {},
+                    match;
+                while (match = regex.exec(url)) {
+                    params[match[1]] = match[2];
+                }
+                var string = "Hello, my email is " + params.contactEmail + " and I am writing in regard to the following subject " + params.contactSubject + ". " + params.contactMessage;
+                console.log(params)
+                window.open('mailto:go.go.gg.rostislav@gmail.com?subject=' + message + '&body=' + string);
             }
 
         });
