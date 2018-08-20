@@ -355,7 +355,6 @@
                     params[match[1]] = match[2];
                 }
                 var string = "Hello, my email is " + params.contactEmail + " and I am writing in regard to the following subject " + params.contactSubject + ". " + params.contactMessage;
-                console.log(params)
                 window.open('mailto:go.go.gg.rostislav@gmail.com?subject=' + message + '&body=' + string);
             }
 
