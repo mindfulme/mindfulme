@@ -357,7 +357,7 @@
 
                 body = body.substring(0, body.indexOf('&')).substring(body.indexOf("=") + 1);
                 console.log(body)
-                var string = "Hello, I am" + body + ", my email is " + params.contactEmail + " and I am writing in regard to the following subject: " + params.contactSubject + ". " + params.contactMessage;
+                var string = "Hello, I am " + body + ", my email is " + params.contactEmail + " and I am writing in regard to the following subject: " + params.contactSubject + ". " + params.contactMessage;
                 window.open('mailto:go.go.gg.rostislav@gmail.com?subject=' + message + '&body=' + string);
             }
 
