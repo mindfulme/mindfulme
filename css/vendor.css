@@ -21,12 +21,6 @@
     position: relative;
     display: block;
     box-sizing: border-box;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
     -ms-touch-action: pan-y;
     touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
@@ -235,10 +229,6 @@
 /* Prevent selection and tap highlights */
 
 .pswp__container, .pswp__img {
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
 }
@@ -515,10 +505,6 @@ Arrow buttons hit area
  * ------------------------------------------------------------------- */
 
 .pswp__counter, .pswp__share-modal {
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
 
 .pswp__share-modal {
