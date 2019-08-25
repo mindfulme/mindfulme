@@ -576,6 +576,7 @@ form,
 	margin-bottom: 24px;
 }
 
+
 .bgrid-third .bgrid {
 	width: 33.33333%;
 }
@@ -1944,6 +1945,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-family: "montserrat-bold", sans-serif;
     font-size: 1.8rem;
     color: #862121;
+    background-color: black;
+    border-radius: 5px;
+    padding:2px;
+    width:280px;
     text-transform: uppercase;
     letter-spacing: .5rem;
     position: relative;
@@ -2534,9 +2539,6 @@ html.no-csstransitions .home-content__main {
 
 .masonry-wrap {
     margin-top: 4.8rem;
-    max-width: none;	
-    width: 1600px;	
-    margin-right:0px;
 }
 
 .masonry:after {
@@ -2546,11 +2548,10 @@ html.no-csstransitions .home-content__main {
 }
 
 .masonry .grid-sizer, .masonry__brick {
-    width: 400px;
+    width: 250px;
 }
 
 .masonry__brick {
-    float: left;
     padding: 0;
     margin:20px;
     border-style: solid;
@@ -2635,7 +2636,28 @@ html.no-csstransitions .home-content__main {
     z-index: 2;
 }
 
+.ramblings h1 {
+    padding: 0 5px;
+    background-color: black; 
+    border-radius: 5px;
+}
+
+.bgrid h5 {
+    padding: 0 5px;
+    background-color: black; 
+    border-radius: 5px 5px 0 0;
+}
+
+.bgrid p {
+    padding: 0 5px;
+    background-color: black; 
+    border-radius: 0 0 5px 5px;
+}
+
 .item-folio__title {
+    padding: 0 5px;
+    background-color: black; 
+    border-radius: 5px 5px 0 0;
     color: #FFFFFF;
     font-family: "montserrat-semibold", sans-serif;
     font-size: 1.4rem;
@@ -2645,7 +2667,10 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio__cat {
-    color: rgba(255, 255, 255, 0.5);
+    padding: 0 5px;
+    background-color: black; 
+    border-radius: 0 0 5px 5px;
+    color: rgba(255, 255, 255, 0.7);
     font-family: "montserrat-regular", sans-serif;
     font-size: 1.5rem;
     margin-bottom: 0;
@@ -2745,7 +2770,7 @@ html.no-csstransitions .home-content__main {
         width: 1200px;
     }
     .masonry .grid-sizer, .masonry__brick {
-        width: 400px;
+        width: 550px;
     }
 }
 
@@ -2754,23 +2779,25 @@ html.no-csstransitions .home-content__main {
         width: 999px;
     }
     .masonry .grid-sizer, .masonry__brick {
-        width: 333px;
+        width: 453px;
     }
 }
 
 @media only screen and (max-width: 1099px) {
     .masonry-wrap {
-        width: 90%;
-        max-width: 800px;
+        width: 599px;
     }
     .masonry .grid-sizer, .masonry__brick {
-        width: 50%;
+        width: 553px;
     }
 }
 
 @media only screen and (max-width: 600px) {
+    .masonry-wrap {
+        width: 399px;
+    }
     .masonry .grid-sizer, .masonry__brick {
-        width: 100%;
+        width: 303px;
     }
 }
 
@@ -2780,6 +2807,14 @@ html.no-csstransitions .home-content__main {
     }
 }
 
+@media only screen and (max-width: 700px) {
+    .sakura-1 {
+        display: none;
+    }
+    .sakura-2 {
+        display: none;
+    }
+}
 
 
 /* ===================================================================
@@ -2787,13 +2822,35 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 
+
+ .sakura-1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: translate3d(0px, 0px, 0px);
+    /* width: 1534px;
+    height: 1058px; */
+    width: 100%;
+    height: 120%;
+ }
+
+ .sakura-2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: scale(1, 1) translate(0px, 0px);
+    /* width: 1680px;
+    height: 1158px; */
+    width: 100%;
+    height: 130%;
+    transform-origin: 840px 908.919px;
+ }
+
 .s-testimonials {
     background-color: #0D0A0B;
     background-image: url("../images/testimonial-bg.jpg");
     background-repeat: no-repeat;
     background-position: center, center;
-    padding-top: 9.6rem;
-    padding-bottom: 10.2rem;
     color: rgba(255, 255, 255, 0.5);
     position: relative;
 }
@@ -2811,13 +2868,15 @@ html.no-csstransitions .home-content__main {
 .testimonials-header {
     text-align: center;
     padding: 0 14rem;
+    padding-top:10px;
+    margin-bottom: -20px;
     position: relative;
 }
 
 .testimonials-header h1 {
     font-family: "librebaskerville-bold", serif;
     font-size: 4.2rem;
-    margin-top: 0;
+    margin-top: 1em;
     color: #FFFFFF;
 }
 
@@ -2837,7 +2896,7 @@ html.no-csstransitions .home-content__main {
 
 .testimonials__slider .slick-arrow {
     position: absolute;
-    top: -10.2rem;
+    top: -9.2rem;
     color: white;
     border-radius: 100%;
     padding-right: 0;
