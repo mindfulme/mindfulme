@@ -1,2 +1,2 @@
-My resume: avowe.us
+My resume: lampgram.com/rostislav
 
