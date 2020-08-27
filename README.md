@@ -11,4 +11,3 @@
 </p>
 
 ------------
-<p align="center">⭐️ From <a href="https://github.com/mindfulme">@mindfulme</a></p>
