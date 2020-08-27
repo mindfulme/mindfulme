@@ -2,7 +2,7 @@
   <br>
   <br>
   <br>
-  <samp>Hello there. I'm <a href="https://selimdoyranli.com">Rostislav</a>.<br> I am CEO of CITVY.<br><br>#manage, #finance, #ai, #tech</samp>
+  <samp><a href="https://citvy.com">Hello</a>.<br> I am CEO of CITVY.<br><br>#manage, #finance, #ai, #tech</samp>
   <br>
   <br>
   <br>
