@@ -2,7 +2,7 @@
   <br>
   <br>
   <br>
-  <samp><a href="https://citvy.com">Hello</a>.<br> <br><br>#cto, #defi, #tech</samp>
+  <samp><a href="https://citvy.com">Hello</a>.<br> <br><br>#ceo #cto, #defi, #tech</samp>
   <br>
   <br>
   <br>
