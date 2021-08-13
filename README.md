@@ -5,7 +5,7 @@
   Telegram <a href="https://t.me/avowe">@avowe</a>
   <br>
   <br>
-  <img src="http://gifgifs.com/animations/jobs-people/royalty/King_Solomon.gif" width="350" />
+  <img src="https://i.imgur.com/HqaslLg.gif" width="350" />
 </p>
 
 ------------
