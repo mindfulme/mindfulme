@@ -1,5 +1,5 @@
 <p align="center">
-  <samp><a href="https://lampgram.com">Hello</a>.<br><br>#ceo #cto, #defi, #tech</samp>
+  <samp><a href="https://lampgram.com">Hello</a>.<br><br> #defi, #tech</samp>
 
   <br>
   Telegram <a href="https://t.me/avowe">@avowe</a>
