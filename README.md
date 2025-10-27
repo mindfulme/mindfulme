@@ -1,5 +1,5 @@
 <p align="center">
-  <samp><a >Hello</a>.<br><br> #uavs, #tech #ardupilot </samp>
+  <samp><a >Hello</a>.<br><br> #uavs, #tech </samp>
 
  
   <br>
